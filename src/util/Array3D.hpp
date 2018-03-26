@@ -3,6 +3,7 @@
 
 #include <math/Vec3.hpp>
 #include <algorithm> // fill_n
+#include <memory>
 
 
 namespace util

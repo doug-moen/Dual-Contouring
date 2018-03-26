@@ -38,7 +38,7 @@ namespace math
 	
 	float nextFloat(float arg)
 	{
-		if (isnan(arg)) return arg;
+		if (std::isnan(arg)) return arg;
 		if (arg==+INF)  return +INF; // Can't go higher.
 		if (arg==0)     return std::numeric_limits<float>::denorm_min();
 		
